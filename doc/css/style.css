@@ -1,11 +1,18 @@
 /* Template documentation by Wpspace */
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+  *{
+	font-family: 'Inter', sans-serif;
+  }
+
 html,body{
 	margin:0;
 	padding:0;
 	outline:0;
 	height: 100%;
 }
+
 body{
 	background: #0b0b0b;
 	min-height:100%;
@@ -20,11 +27,26 @@ body{
 	padding-top: 50px;
 }
 
+.menu_main_wrap .logo {
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+
 footer, header, section, aside {
 	display:block;
 }
 
-a{ color:#00abea; text-decoration:none; }
+nav {
+	background-color: #cb0e0e; /* Dark red color */
+	/* style="background-color: #cb0e0e; */
+}
+
+#hello{
+   margin-top: 200px;
+}
+
+
+/* a{ color:#00abea; text-decoration:none; } */
 
 p, ul, ol{
 	margin:0 0 21px;
@@ -91,7 +113,10 @@ img {
 	box-shadow: 0 1px 5px rgba(0,0,0, .2);
 }
 
-.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:before, .clearfix:after {
+	 content:""; 
+	 display:table; 
+	}
 .clearfix:after { clear:both;}
 .clearfix { zoom:1; }
 
@@ -188,6 +213,7 @@ img {
 	height: 100%;
 	margin: 0 0 400px 270px;
 }
+
 	#content .wrapper{
 		padding: 20px 50px;
 	}
@@ -310,3 +336,13 @@ section section {
 	.error span {
 		color: #e35f5f;
 	}
+
+	header.top_panel_wrap {
+		background-color: red;
+	  }
+
+ #footerpart{
+	font-size: 40px;
+ }
+
+ 
